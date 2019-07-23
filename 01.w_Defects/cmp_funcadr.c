@@ -11,9 +11,9 @@
 #include "HeaderFile.h"
 
 /*
-  * Types of defects: comparing the function address and NULL
-  * Complexity: constant (NULL)
-  */
+ * Types of defects: comparing the function address and NULL
+ * Complexity: constant (NULL)
+ */
 int cmp_funcadr_001_glb_a;
 int* cmp_funcadr_001_func_001 ()
 {
@@ -31,11 +31,11 @@ void cmp_funcadr_001 ()
 }
 
 /*
-  * Types of defects: comparing the function address and NULL
-  * Complexity: constant (number)
-  * Note: Compile error in handling PolySpace
-  * (Operands of == have incompatible types)
-  */
+ * Types of defects: comparing the function address and NULL
+ * Complexity: constant (number)
+ * Note: Compile error in handling PolySpace
+ * (Operands of == have incompatible types)
+ */
 
 int cmp_funcadr_002_func_001 ()
 {
