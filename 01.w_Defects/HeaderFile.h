@@ -13,7 +13,12 @@
 #include<pthread.h>
 #include<ctype.h>
 #include<unistd.h>
+#include<limits.h>
 
 # define PRINT_DEBUG 1
+
+extern int idx, sink;
+extern double dsink;
+extern void *psink;
 
 #endif /* HEADERFILE_H_ */
